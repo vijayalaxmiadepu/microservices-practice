@@ -1,0 +1,5 @@
+package com.microservicepractice.departmentservice.config;
+
+public class HazlecaseCacheConfig {
+
+}

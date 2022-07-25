@@ -1,0 +1,8 @@
+package com.dailycodebuffer.department.controller;
+
+@RestController
+@RequestMapping("/departments")
+@Slf4j
+public class DepartmentController {
+
+}

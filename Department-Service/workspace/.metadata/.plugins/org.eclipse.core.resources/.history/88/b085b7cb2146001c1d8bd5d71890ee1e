@@ -1,0 +1,10 @@
+package com.dailycodebuffer.department.entity;
+
+public class Department {
+
+	@Id
+    private Long departmentId;
+    private String departmentName;
+    private String departmentAddress;
+    private String departmentCode;
+}

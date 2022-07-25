@@ -1,0 +1,16 @@
+#container name and host name must be same
+version: "3"
+services:
+ mongodbpractice:
+    image: mongo:latest
+    container_name: mongodbpractice
+    ports:
+      - 27017:27017
+ springboot-department-service-mongodb:
+    image: department-service-mongodb
+    container_name: springboot-department-service-mongodb
+    ports: 
+      - 9091:9091
+    links:
+       - mongodbpractice
+  

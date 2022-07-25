@@ -1,0 +1,14 @@
+package com.dailycodebuffer.department.entity;
+
+import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Document;
+
+@Document(collection = "department")
+public class Department {
+
+	@Id
+    private Long departmentId;
+    private String departmentName;
+    private String departmentAddress;
+    private String departmentCode;
+}

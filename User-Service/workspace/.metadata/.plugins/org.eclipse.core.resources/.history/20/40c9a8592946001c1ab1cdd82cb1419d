@@ -1,0 +1,9 @@
+package com.dailycodebuffer.user.repository;
+
+import org.springframework.data.mongodb.repository.MongoRepository;
+
+import com.dailycodebuffer.user.entity.User;
+
+public interface UserRepository extends MongoRepository<User, String>{
+
+}

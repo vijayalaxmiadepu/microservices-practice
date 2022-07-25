@@ -1,0 +1,5 @@
+package com.dailycodebuffer.user.VO;
+
+public class Department {
+
+}

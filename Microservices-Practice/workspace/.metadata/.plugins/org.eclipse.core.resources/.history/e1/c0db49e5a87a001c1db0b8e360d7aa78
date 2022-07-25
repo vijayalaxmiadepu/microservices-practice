@@ -1,0 +1,5 @@
+package com.microservicepractice.employeeservice.config;
+
+public class HazlecastCacheConfig {
+
+}
